@@ -22,6 +22,7 @@ namespace MindBoxTestTests
             //Вычисление площади фигуры без знания типа фигуры в compile-time
             foreach (var item in items)
             {
+                //просто посмотреть что площадь считается в результатах теста
                 Debug.WriteLine("Площадь:"+item.CalculateSquare());
             }
         }
